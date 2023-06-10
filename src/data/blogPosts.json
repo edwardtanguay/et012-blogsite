@@ -1,0 +1,18 @@
+[
+	{
+		"title": "Blog post one",
+		"body": "This is the text of blog post one."
+	},
+	{
+		"title": "Blog post two",
+		"body": "This is the text of blog post two."
+	},
+	{
+		"title": "Blog post three",
+		"body": "This is the text of blog post three."
+	},
+	{
+		"title": "Blog post four",
+		"body": "This is the text of blog post four."
+	}
+]
