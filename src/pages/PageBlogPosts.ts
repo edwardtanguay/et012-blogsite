@@ -1,5 +1,6 @@
 import blogPosts from '../data/blogPosts.json';
 import './styles/pageBlogPosts.scss';
+import { BlogPost } from '../components/BlogPost';
 
 export const PageBlogPosts = () => {
 	return /*html*/`
@@ -8,11 +9,7 @@ export const PageBlogPosts = () => {
 
 <div class="blogPosts">
 	${blogPosts.map(blogPost => {
-			return `
-	<div class="blogPost">
-		${blogPost.title}	
-	</div>
-		`;
+		return BlogPost(); 
 		}).join('')}
 	</div>
 </div>
