@@ -1,7 +1,9 @@
-export const BlogPost = () => {
+import { IBlogPost } from '../interfaces';
+
+export const BlogPost = (blogPost: IBlogPost) => {
 	return `
 	<div class="blogPost">
-	test
+		${blogPost.title}	
 	</div>
 		`;
 };
