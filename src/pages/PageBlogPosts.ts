@@ -10,8 +10,10 @@ export const PageBlogPosts = () => {
 <div class="blogPosts">
 	${blogPosts.map(blogPost => {
 		return BlogPost(blogPost); 
-		}).join('')}
-	</div>
+	}).join('')}
+</div>
 </div>
 `;
 }
+
+
